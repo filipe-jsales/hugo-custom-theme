@@ -860,7 +860,7 @@
 
 #bmi .bmi-ask-for-review,
 #bmi .bmi-ask-for-review {
-    background: #f5f5f5;
+    background: #65ff519c;
     margin-top: 35px;
     margin-bottom: 35px;
     height: 170px
@@ -1359,6 +1359,7 @@
     -ms-transition: all 0.7s ease;
     border-radius: 10px;
     padding: 20px
+    
 }
 
 #bmi .bmi-backup-btn .vcenter {
@@ -1376,24 +1377,10 @@
     color: #fff
 }
 
-#bmi .bmi-backup-btn.one .insider {
-    opacity: 0.6;
-    background-color: rgba(255, 255, 255, 0.14);
-    width: 340px;
-    height: 162px;
-    position: absolute;
-    right: 1px;
-    bottom: 86px;
-    transform: rotateZ(-45deg);
-    -webkit-transform: rotateZ(-45deg);
-    -moz-transform: rotateZ(-45deg);
-    -o-transform: rotateZ(-45deg);
-    -ms-transform: rotateZ(-45deg);
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease
+#bmi .bmi-backup-btn.one .teste {
+
+    background-color: red;
+
 }
 
 #bmi .bmi-backup-btn.one .insider-2 {
@@ -1416,14 +1403,8 @@
     -ms-transition: all 0.3s ease
 }
 
-#bmi .bmi-backup-btn.one:hover .insider {
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    right: 108px;
-    bottom: 200px
+#bmi .bmi-backup-btn.one:hover {
+    background-color: #3f9e93;
 }
 
 #bmi .bmi-backup-btn.one:hover .insider-2 {

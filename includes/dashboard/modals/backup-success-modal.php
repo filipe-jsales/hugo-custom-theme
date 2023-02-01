@@ -19,12 +19,12 @@
       <div class="mms mm60 f30 bold center black"><?php _e('Backup successful!', 'backup-backup') ?></div>
 
       <div class="center mm60 mbl mtl">
-        <img src="<?php echo $this->get_asset('images', 'happy-smile.png'); ?>" alt="happy-img">
+        <img src="<?php echo $this->get_asset('images', 'checked64px.png'); ?>" alt="happy-img">
       </div>
 
       <div id="accessible-at-section" class="mm60">
         <div class="mms mbl">
-          <div class="f18 mbll">
+          <div class="f18 mbll mtl">
             <?php _e('Your backup is now accessible at:', 'backup-backup') ?>
           </div>
           <div class="cf success-copy-input">
@@ -39,47 +39,8 @@
         </div>
 
         <div class="mms f18 mtl lh30">
-          <?php $st1l = __('To migrate your site, just copy above link, install %a1our plugin%a2 on the target site, go to the', 'backup-backup'); ?>
-          <?php echo str_replace('%a2', '</a>', str_replace('%a1', '<a class="hoverable secondary" href="https://wordpress.org/plugins/backup-backup" target="_blank">', $st1l)); ?>
-          "<a href="#" class="hoverable secondary go-to-marbs"><?php _e('Manage & Restore Backups', 'backup-backup') ?></a>"
-          <?php _e('- tab, and paste the link there.', 'backup-backup') ?>
+          <?php _e('To migrate your site, just copy above link, install the same plugin on the target site, go to the Restore Backups - tab, and paste the link there.', 'backup-backup') ?>
         </div>
-      </div>
-
-      <div class="bmi-ask-for-review">
-        <div class="cf mm60">
-          <div class="left bmi-positive-wrapper">
-            <img src="<?php echo $this->get_asset('images', 'big-thumb-up.svg'); ?>" alt="positive-thumb-up" class="bmi-positive-thumb">
-          </div>
-          <div class="left bmi-thumb-info">
-            <div class="f16 lh30 mm30 mtll mbll">
-              <?php _e("Like how easy it was? Then <b>PLEASE</b> give us a nice rating so that others discover out plugin & benefit from it too. Thank you!!", 'backup-backup'); ?>
-            </div>
-            <div class="cf lh60 mm30">
-              <div class="left">
-                <a href="https://wordpress.org/support/plugin/backup-backup/reviews/#new-post" target="_blank" class="btn inline btn-pad mm30">
-                  <div class="text">
-                    <div class="f14 semibold"><?php _e('Sounds fair, let me give a rating', 'backup-backup'); ?></div>
-                  </div>
-                </a>
-              </div>
-              <div class="right relative">
-                <a href="#!" class="nodec secondary semibold">
-                  <span class="tooltip hoverable info-cursor f14" tooltip="<?php echo $ctl; ?>">
-                    <?php _e("Trouble logging in?", 'backup-backup'); ?>
-                    <span class="bmi-info-icon"></span>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="f18 mtl mbl mms lh14 mm60">
-        <?php _e('You can manage the backup on the', 'backup-backup') ?>
-        "<a href="#" class="hoverable secondary go-to-marbs"><?php _e('Manage & Restore Backups', 'backup-backup') ?></a>"
-        <?php _e('- tab.', 'backup-backup') ?>
       </div>
 
       <div class="mms mtl flex-here lh50 mm60">

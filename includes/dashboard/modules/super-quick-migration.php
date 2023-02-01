@@ -9,7 +9,7 @@
 ?>
 
 <div class="collapser ignorehov section-bmi shadow section-bmi" group="quick-migration">
-  <div class=" center header f20 pointer ignorehov transition heading-sq"><span class="bold"><?php _e('Migrar Wordpress', 'backup-backup') ?></span></div>
+  <div class=" center header f20 pointer ignorehov transition heading-sq"><span class="bold"><?php _e('Migrate Wordpress', 'backup-backup') ?></span></div>
   <div class="content">
 
     <div class="content-above">

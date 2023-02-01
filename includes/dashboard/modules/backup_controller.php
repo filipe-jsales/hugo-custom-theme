@@ -28,12 +28,9 @@
 ?>
 
 <div class="backup-creator cf section-bmi" id="bmi-section--cron">
-  <div class="left">
-    <div class="create-now pointer bmi-backup-btn one shadow" id="i-backup-creator">
-      <div class="insider"></div>
-      <div class="insider-2"></div>
+  <div class="">
+    <div class="create-now pointer bmi-backup-btn one shadow center" style="margin:  0 auto;" id="i-backup-creator">
       <div class="vcenter">
-        <img src="<?php echo $this->get_asset('images', 'backup-teste.png'); ?>" alt="server-img" height="50px" class="img-now">
         <div class="text mtll">
           <span class="medium pointer mtl">
             <?php _e('Create backup', 'backup-backup') ?> <span class="bold mtl"><?php _e('now!', 'backup-backup') ?></span>
@@ -42,7 +39,7 @@
       </div>
     </div>
   </div>
-  <div class="left cron-backups-wrap" id="i-backup-cron">
+  <div style="display: none;" class="left cron-backups-wrap" id="i-backup-cron">
     <div class="cron-backups shadow relative<?php echo ((bmi_get_config('CRON:ENABLED') === false) ? ' disabled' : '') ?>">
       <div class="turned-off pointer transition"<?php echo ((bmi_get_config('CRON:ENABLED') === true) ? ' style="display: none"' : '') ?>>
         <div class="vcenter">

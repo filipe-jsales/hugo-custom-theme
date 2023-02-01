@@ -12,8 +12,8 @@
 
   <div class="modal-wrapper" style="max-width: 900px; max-width: min(900px, 80vw)">
     <div class="modal-content center">
-      <span class="mm60 f26 bold black">Greenmainframe</span>
-    <img class="mb mtl" src="<?php echo $this->get_asset('images', 'happy-smile.png'); ?>" alt="success">
+      <!-- <span class="mm60 f26 bold black">Greenmainframe</span> -->
+    <img class="mb mtl center" src="<?php echo $this->get_asset('images', 'greenmainframe-logo.png'); ?>" alt="success">
       <div class="mm60 f26 bold black"><?php _e('Backup in progress', 'backup-backup') ?></div>
 
       <div class="progress-bar-wrapper">

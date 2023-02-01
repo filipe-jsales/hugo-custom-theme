@@ -7,6 +7,3 @@ Stable tag: 1.2.7
 License: GPLv3
 Requires PHP: 5.6
 
-aaaaa
-
-sss
